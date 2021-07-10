@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ascii on DevSquad Study Group</title>
-    <link>http://DevSquad-StudyGroup.github.io/tags/ascii/</link>
+    <link>https://DevSquad-StudyGroup.github.io/tags/ascii/</link>
     <description>Recent content in ascii on DevSquad Study Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Jul 2021 20:52:53 -0700</lastBuildDate><atom:link href="http://DevSquad-StudyGroup.github.io/tags/ascii/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jul 2021 20:52:53 -0700</lastBuildDate><atom:link href="https://DevSquad-StudyGroup.github.io/tags/ascii/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CS 50 Week 0 - Scratch</title>
-      <link>http://DevSquad-StudyGroup.github.io/posts/cs50_week0/</link>
+      <link>https://DevSquad-StudyGroup.github.io/posts/cs50_week0/</link>
       <pubDate>Thu, 08 Jul 2021 20:52:53 -0700</pubDate>
       
-      <guid>http://DevSquad-StudyGroup.github.io/posts/cs50_week0/</guid>
+      <guid>https://DevSquad-StudyGroup.github.io/posts/cs50_week0/</guid>
       <description>✌️ binary   Binary is a base-2 system, unlike the decimal, base-10 system standard in much of the world.
   Where a base-10 number such as 146 has a 6 in the 1s place (or $10^0$ place), a 4 in the 10s place (or $10^1$ place), and a 1 in the 100s place (or $10^2$ place), a base-2 number such as 001 has a 1 in the 1s place (or $2^0$ place), a 0 in the 2s place (or $2^1$ place) and a 0 in the 4s place (or $2^2$ place).</description>
       <content>&lt;h1 id=&#34;-binary&#34;&gt;✌️ binary&lt;/h1&gt;
@@ -25,7 +25,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Put more visually:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://DevSquad-StudyGroup.github.io/images/cs50_week0_binary.png&#34; alt=&#34;Visual representation of binary&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://DevSquad-StudyGroup.github.io/images/cs50_week0_binary.png&#34; alt=&#34;Visual representation of binary&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -49,7 +49,7 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Using the following &lt;a href=&#34;https://asciichart.com&#34;&gt;ascii chart&lt;/a&gt;, see if you can decode the binary number to reveal a message.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://DevSquad-StudyGroup.github.io/images/ascii.png&#34; alt=&#34;https://asciichart.com&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://DevSquad-StudyGroup.github.io/images/ascii.png&#34; alt=&#34;https://asciichart.com&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;message in binary&lt;/strong&gt;&lt;/p&gt;
@@ -74,7 +74,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Consider the phonebook example:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://DevSquad-StudyGroup.github.io/images/cs50_week0_graph.png&#34; alt=&#34;Graph of phonebook solutions&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://DevSquad-StudyGroup.github.io/images/cs50_week0_graph.png&#34; alt=&#34;Graph of phonebook solutions&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;When trying to flip through the a phonebook to find a specific name, flipping one page at a time could be represented by the $n$ line. The size of the problem directly corresponds to the time it takes to solve the problem.&lt;/li&gt;
 &lt;li&gt;When flipping through two pages at a time, the solution is represented by the $n/2$ line. Now, the time it takes to solve the problem is divided in half.&lt;/li&gt;

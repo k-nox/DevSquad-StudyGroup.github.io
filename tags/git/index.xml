@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>git on DevSquad Study Group</title>
-    <link>http://DevSquad-StudyGroup.github.io/tags/git/</link>
+    <link>https://DevSquad-StudyGroup.github.io/tags/git/</link>
     <description>Recent content in git on DevSquad Study Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Jul 2021 20:15:58 -0700</lastBuildDate><atom:link href="http://DevSquad-StudyGroup.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jul 2021 20:15:58 -0700</lastBuildDate><atom:link href="https://DevSquad-StudyGroup.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git &amp; Github Basics</title>
-      <link>http://DevSquad-StudyGroup.github.io/posts/git_basics/</link>
+      <link>https://DevSquad-StudyGroup.github.io/posts/git_basics/</link>
       <pubDate>Thu, 08 Jul 2021 20:15:58 -0700</pubDate>
       
-      <guid>http://DevSquad-StudyGroup.github.io/posts/git_basics/</guid>
+      <guid>https://DevSquad-StudyGroup.github.io/posts/git_basics/</guid>
       <description>❓ what is git?  Git is a distributed version control system. Okay&amp;hellip; so what is a version control system then?  A version control system keeps track of all the changes you make to a file or project throughout it&amp;rsquo;s entire lifetime. Why is this useful?   It turns out there are a ton of reasons this is helpful in the world of software development.
   For one, if you introduce changes to a file that break a previously working project, you can use Git to revert your project back to the previous, working state.</description>
       <content>&lt;h1 id=&#34;-what-is-git&#34;&gt;❓ what is git?&lt;/h1&gt;
@@ -76,7 +76,7 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;While going through this section, the following visual may be helpful:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://DevSquad-StudyGroup.github.io/images/git_diagram.png&#34; alt=&#34;Diagram of git workflow&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://DevSquad-StudyGroup.github.io/images/git_diagram.png&#34; alt=&#34;Diagram of git workflow&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;There are &lt;strong&gt;four&lt;/strong&gt; different areas a file can &amp;ldquo;live&amp;rdquo; in at any given time:&lt;/p&gt;
