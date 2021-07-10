@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scratch on DevSquad Study Group</title>
+    <link>http://DevSquad-StudyGroup.github.io/tags/scratch/</link>
+    <description>Recent content in scratch on DevSquad Study Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Jul 2021 20:52:53 -0700</lastBuildDate><atom:link href="http://DevSquad-StudyGroup.github.io/tags/scratch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CS 50 Week 0 - Scratch</title>
+      <link>http://DevSquad-StudyGroup.github.io/posts/cs50_week0/</link>
+      <pubDate>Thu, 08 Jul 2021 20:52:53 -0700</pubDate>
+      
+      <guid>http://DevSquad-StudyGroup.github.io/posts/cs50_week0/</guid>
+      <description>✌️ binary   Binary is a base-2 system, unlike the decimal, base-10 system standard in much of the world.
+  Where a base-10 number such as 146 has a 6 in the 1s place (or $10^0$ place), a 4 in the 10s place (or $10^1$ place), and a 1 in the 100s place (or $10^2$ place), a base-2 number such as 001 has a 1 in the 1s place (or $2^0$ place), a 0 in the 2s place (or $2^1$ place) and a 0 in the 4s place (or $2^2$ place).</description>
+      <content>&lt;h1 id=&#34;-binary&#34;&gt;✌️ binary&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Binary is a base-2 system, unlike the decimal, base-10 system standard in much of the world.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Where a base-10 number such as 146 has a 6 in the 1s place (or $10^0$ place), a 4 in the 10s place (or $10^1$ place), and a 1 in the 100s place (or $10^2$ place), a base-2 number such as 001 has a 1 in the 1s place (or $2^0$ place), a 0 in the 2s place (or $2^1$ place) and a 0 in the 4s place (or $2^2$ place).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Put more visually:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://DevSquad-StudyGroup.github.io/images/cs50_week0_binary.png&#34; alt=&#34;Visual representation of binary&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Effectively, binary is the &amp;ldquo;language of computers.&amp;rdquo;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Because computers are machines, they cannot literally think in terms of 0s and 1s. Instead, this is a convention we use to describe the on &amp;amp; off states of the transistors that make up the computer&amp;rsquo;s circuitry.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Because the world is made of more than 0s and 1s, humans have agreed on conventions like &lt;a href=&#34;#-vocabulary&#34;&gt;ascii&lt;/a&gt; and &lt;a href=&#34;#-vocabulary&#34;&gt;unicode&lt;/a&gt; to represent other letters and characters.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Similarly, we have created systems that map binary numbers to colors, sounds, and more, to allow for the wide spectrum of information we can view on a computer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Computers are context-sensitive! The file extension lets the computer know it should use a certain set of decoding instructions to correctly represent the information in any particular file.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-test-yourself&#34;&gt;🤔 test yourself&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Using the following &lt;a href=&#34;https://asciichart.com&#34;&gt;ascii chart&lt;/a&gt;, see if you can decode the binary number to reveal a message.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://DevSquad-StudyGroup.github.io/images/ascii.png&#34; alt=&#34;https://asciichart.com&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;message in binary&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;01000100 01100101 01110110 01010011 01110001 01110101 01100001 01100100&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Look for the &lt;a href=&#34;#binary-message-answer&#34;&gt;answer&lt;/a&gt; at the bottom of the page!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-algorithms&#34;&gt;🧮 algorithms&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;At its most basic, an &lt;strong&gt;algorithm&lt;/strong&gt; is a set of instructions meant to accomplish a task.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In the world of computers, algorithms have to be exact and explicit; computers do not infer or read between the lines. What you say is what you get!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The success of an algorithm is not solely dependent on its correctness; equally important is its efficiency!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Consider the phonebook example:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://DevSquad-StudyGroup.github.io/images/cs50_week0_graph.png&#34; alt=&#34;Graph of phonebook solutions&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When trying to flip through the a phonebook to find a specific name, flipping one page at a time could be represented by the $n$ line. The size of the problem directly corresponds to the time it takes to solve the problem.&lt;/li&gt;
+&lt;li&gt;When flipping through two pages at a time, the solution is represented by the $n/2$ line. Now, the time it takes to solve the problem is divided in half.&lt;/li&gt;
+&lt;li&gt;When flipping through half the phonebook at a time, the solution is represented by the $log_{2}5$ line. While the time to solve the problem still goes up with the size of the problem, as the problem gets larger and larger, the time goes up less and less. This is the most efficient method.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-abstraction&#34;&gt;🎨 abstraction&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Abstraction&lt;/strong&gt; is the process of deliberately simplifying systems by &amp;ldquo;abstracting away&amp;rdquo; the more complex aspects of the system to deal with.&lt;/li&gt;
+&lt;li&gt;An example of abstraction is defining a function that performs a series of commonly used steps in a program. By defining this function in one place with a descriptive name, you can simply call the function into use in any part of your code without having to worry again about the minute implementation details.&lt;/li&gt;
+&lt;li&gt;Abstraction is key to creating more complex projects; you must start &lt;strong&gt;small&lt;/strong&gt; and iterate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-vocabulary&#34;&gt;🗝 vocabulary&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;bits&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;derived from &amp;ldquo;binary digits&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;each digit in a binary number is one bit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;bytes&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;8 bits = 1 byte&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ascii&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;an agreement between humans to represent specific letters and characters with specific binary numbers&lt;/li&gt;
+&lt;li&gt;each character is comprised of 1 byte, or 8 bits
+&lt;ul&gt;
+&lt;li&gt;thus ascii is limited to 256 possibilities as there are only 256 unique ways to arrange 8 bits&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;unicode&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;newer system of mapping binary numbers to characters that aims to represent all of humanity&amp;rsquo;s written languages and symbols&lt;/li&gt;
+&lt;li&gt;uses up to 32 bits per character to allow for a much wider range of possibilities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;binary-message-answer&#34;&gt;binary message answer&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;message in decimal&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;68 101 118 83 113 117 97 100&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;message in english&lt;/strong&gt; (only look once you are done decoding!)
+&lt;ul&gt;
+&lt;li&gt;DevSquad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

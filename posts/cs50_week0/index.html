@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>CS 50 Week 0 - Scratch :: DevSquad Study Group</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Notes to recap Week 0 of CS50" />
+<meta name="keywords" content=", " />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="http://DevSquad-StudyGroup.github.io/posts/cs50_week0/" />
+
+
+
+
+<link rel="stylesheet" href="http://DevSquad-StudyGroup.github.io/assets/style.css">
+
+  <link rel="stylesheet" href="http://DevSquad-StudyGroup.github.io/assets/blue.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="http://DevSquad-StudyGroup.github.io/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="http://DevSquad-StudyGroup.github.io/img/favicon/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="CS 50 Week 0 - Scratch">
+<meta property="og:description" content="Notes to recap Week 0 of CS50" />
+<meta property="og:url" content="http://DevSquad-StudyGroup.github.io/posts/cs50_week0/" />
+<meta property="og:site_name" content="DevSquad Study Group" />
+
+  <meta property="og:image" content="http://DevSquad-StudyGroup.github.io/images/cs50_week0_cover.jpg">
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2021-07-08 20:52:53 -0700 PDT" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="blue">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    DevSquad Study Group
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/tags">Topics</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/tags">Topics</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="http://DevSquad-StudyGroup.github.io/posts/cs50_week0/">CS 50 Week 0 - Scratch</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2021-07-08 
+      </span>
+    
+    
+    <span class="post-author">:: Lux</span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="http://DevSquad-StudyGroup.github.io/tags/cs50/">cs50</a>&nbsp;
+    
+    #<a href="http://DevSquad-StudyGroup.github.io/tags/scratch/">scratch</a>&nbsp;
+    
+    #<a href="http://DevSquad-StudyGroup.github.io/tags/binary/">binary</a>&nbsp;
+    
+    #<a href="http://DevSquad-StudyGroup.github.io/tags/algorithms/">algorithms</a>&nbsp;
+    
+    #<a href="http://DevSquad-StudyGroup.github.io/tags/ascii/">ascii</a>&nbsp;
+    
+  </span>
+  
+
+  
+    <img src="http://DevSquad-StudyGroup.github.io/images/cs50_week0_cover.jpg" class="post-cover" alt="CS 50 Week 0 - Scratch" />
+  
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="-binary">✌️ binary<a href="#-binary" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<ul>
+<li>
+<p>Binary is a base-2 system, unlike the decimal, base-10 system standard in much of the world.</p>
+<ul>
+<li>
+<p>Where a base-10 number such as 146 has a 6 in the 1s place (or $10^0$ place), a 4 in the 10s place (or $10^1$ place), and a 1 in the 100s place (or $10^2$ place), a base-2 number such as 001 has a 1 in the 1s place (or $2^0$ place), a 0 in the 2s place (or $2^1$ place) and a 0 in the 4s place (or $2^2$ place).</p>
+</li>
+<li>
+<p>Put more visually:</p>
+<p><img src="/images/cs50_week0_binary.png" alt="Visual representation of binary"></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Effectively, binary is the &ldquo;language of computers.&rdquo;</p>
+<blockquote>
+<p>Because computers are machines, they cannot literally think in terms of 0s and 1s. Instead, this is a convention we use to describe the on &amp; off states of the transistors that make up the computer&rsquo;s circuitry.</p>
+</blockquote>
+</li>
+<li>
+<p>Because the world is made of more than 0s and 1s, humans have agreed on conventions like <a href="#-vocabulary">ascii</a> and <a href="#-vocabulary">unicode</a> to represent other letters and characters.</p>
+<ul>
+<li>Similarly, we have created systems that map binary numbers to colors, sounds, and more, to allow for the wide spectrum of information we can view on a computer.</li>
+</ul>
+<blockquote>
+<p>Computers are context-sensitive! The file extension lets the computer know it should use a certain set of decoding instructions to correctly represent the information in any particular file.</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="-test-yourself">🤔 test yourself<a href="#-test-yourself" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<ul>
+<li>
+<p>Using the following <a href="https://asciichart.com">ascii chart</a>, see if you can decode the binary number to reveal a message.</p>
+<p><img src="/images/ascii.png" alt="https://asciichart.com"></p>
+</li>
+<li>
+<p><strong>message in binary</strong></p>
+<ul>
+<li>01000100 01100101 01110110 01010011 01110001 01110101 01100001 01100100</li>
+</ul>
+</li>
+<li>
+<p>Look for the <a href="#binary-message-answer">answer</a> at the bottom of the page!</p>
+</li>
+</ul>
+<h1 id="-algorithms">🧮 algorithms<a href="#-algorithms" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<ul>
+<li>
+<p>At its most basic, an <strong>algorithm</strong> is a set of instructions meant to accomplish a task.</p>
+<ul>
+<li>In the world of computers, algorithms have to be exact and explicit; computers do not infer or read between the lines. What you say is what you get!</li>
+</ul>
+</li>
+<li>
+<p>The success of an algorithm is not solely dependent on its correctness; equally important is its efficiency!</p>
+</li>
+<li>
+<p>Consider the phonebook example:</p>
+<p><img src="/images/cs50_week0_graph.png" alt="Graph of phonebook solutions"></p>
+<ul>
+<li>When trying to flip through the a phonebook to find a specific name, flipping one page at a time could be represented by the $n$ line. The size of the problem directly corresponds to the time it takes to solve the problem.</li>
+<li>When flipping through two pages at a time, the solution is represented by the $n/2$ line. Now, the time it takes to solve the problem is divided in half.</li>
+<li>When flipping through half the phonebook at a time, the solution is represented by the $log_{2}5$ line. While the time to solve the problem still goes up with the size of the problem, as the problem gets larger and larger, the time goes up less and less. This is the most efficient method.</li>
+</ul>
+</li>
+</ul>
+<h1 id="-abstraction">🎨 abstraction<a href="#-abstraction" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<ul>
+<li><strong>Abstraction</strong> is the process of deliberately simplifying systems by &ldquo;abstracting away&rdquo; the more complex aspects of the system to deal with.</li>
+<li>An example of abstraction is defining a function that performs a series of commonly used steps in a program. By defining this function in one place with a descriptive name, you can simply call the function into use in any part of your code without having to worry again about the minute implementation details.</li>
+<li>Abstraction is key to creating more complex projects; you must start <strong>small</strong> and iterate.</li>
+</ul>
+<h1 id="-vocabulary">🗝 vocabulary<a href="#-vocabulary" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<ul>
+<li><strong>bits</strong>
+<ul>
+<li>derived from &ldquo;binary digits&rdquo;</li>
+<li>each digit in a binary number is one bit</li>
+</ul>
+</li>
+<li><strong>bytes</strong>
+<ul>
+<li>8 bits = 1 byte</li>
+</ul>
+</li>
+<li><strong>ascii</strong>
+<ul>
+<li>an agreement between humans to represent specific letters and characters with specific binary numbers</li>
+<li>each character is comprised of 1 byte, or 8 bits
+<ul>
+<li>thus ascii is limited to 256 possibilities as there are only 256 unique ways to arrange 8 bits</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>unicode</strong>
+<ul>
+<li>newer system of mapping binary numbers to characters that aims to represent all of humanity&rsquo;s written languages and symbols</li>
+<li>uses up to 32 bits per character to allow for a much wider range of possibilities</li>
+</ul>
+</li>
+</ul>
+<h1 id="binary-message-answer">binary message answer<a href="#binary-message-answer" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<ul>
+<li><strong>message in decimal</strong>
+<ul>
+<li>68 101 118 83 113 117 97 100</li>
+</ul>
+</li>
+<li><strong>message in english</strong> (only look once you are done decoding!)
+<ul>
+<li>DevSquad</li>
+</ul>
+</li>
+</ul>
+
+      </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        
+        <span class="button next">
+            <a href="http://DevSquad-StudyGroup.github.io/posts/git_basics/">
+                <span class="button__text">Git &amp; Github Basics</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2021 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="http://DevSquad-StudyGroup.github.io/assets/main.js"></script>
+<script src="http://DevSquad-StudyGroup.github.io/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

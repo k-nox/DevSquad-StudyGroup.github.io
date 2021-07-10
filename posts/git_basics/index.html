@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Git &amp; Github Basics :: DevSquad Study Group</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A short post on the basics of Git &amp; Github" />
+<meta name="keywords" content="git, github" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="http://DevSquad-StudyGroup.github.io/posts/git_basics/" />
+
+
+
+
+<link rel="stylesheet" href="http://DevSquad-StudyGroup.github.io/assets/style.css">
+
+  <link rel="stylesheet" href="http://DevSquad-StudyGroup.github.io/assets/blue.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="http://DevSquad-StudyGroup.github.io/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="http://DevSquad-StudyGroup.github.io/img/favicon/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Git &amp; Github Basics">
+<meta property="og:description" content="A short post on the basics of Git &amp; Github" />
+<meta property="og:url" content="http://DevSquad-StudyGroup.github.io/posts/git_basics/" />
+<meta property="og:site_name" content="DevSquad Study Group" />
+
+  <meta property="og:image" content="http://DevSquad-StudyGroup.github.io/images/git_basics_cover.jpg">
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2021-07-08 20:15:58 -0700 PDT" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="blue">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    DevSquad Study Group
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/tags">Topics</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/tags">Topics</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="http://DevSquad-StudyGroup.github.io/posts/git_basics/">Git &amp; Github Basics</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2021-07-08 
+      </span>
+    
+    
+    <span class="post-author">:: Lux</span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="http://DevSquad-StudyGroup.github.io/tags/git/">git</a>&nbsp;
+    
+    #<a href="http://DevSquad-StudyGroup.github.io/tags/github/">github</a>&nbsp;
+    
+  </span>
+  
+
+  
+    <img src="http://DevSquad-StudyGroup.github.io/images/git_basics_cover.jpg" class="post-cover" alt="Git &amp; Github Basics" />
+  
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="-what-is-git">❓ what is git?<a href="#-what-is-git" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<ul>
+<li>Git is a <strong>distributed version control system</strong>.</li>
+<li>Okay&hellip; so what is a version control system then?
+<ul>
+<li>A version control system keeps track of all the changes you make to a file or project throughout it&rsquo;s entire lifetime.</li>
+<li>Why is this useful?
+<ul>
+<li>
+<p>It turns out there are a <em>ton</em> of reasons this is helpful in the world of software development.</p>
+</li>
+<li>
+<p>For one, if you introduce changes to a file that <em>break</em> a previously working project, you can use Git to revert your project back to the previous, working state.</p>
+<blockquote>
+<p>Git is a bit like an &ldquo;undo&rdquo; button with a super long memory that can remember every action you took!</p>
+</blockquote>
+</li>
+<li>
+<p>Another useful feature is if you are working in a team or other collaborative environment. Have a question about why a certain file or function was written the way that it was? Git allows you to see who wrote that part of the code so you can reach out directly to that person.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>So now that we know what a version control system is, what does it mean that Git is <strong>distributed</strong>?
+<ul>
+<li>There are three main different types of version control systems that exist:
+<ul>
+<li><strong>Local</strong>
+<ul>
+<li>In a local version control system, everything (meaning the project and the full history of changes to the project) is stored only in one place - your computer. If you are the only person working on a project, this <em>could</em> meet your needs; however, it can be error-prone.</li>
+</ul>
+</li>
+<li><strong>Centralized</strong>
+<ul>
+<li>In a centralized version control system, the project and the history of changes are stored on a central server. Individuals can &ldquo;checkout&rdquo; certain files to work on, but they only receive that specific file - not the whole history of the file, nor any other files in the project.</li>
+<li>If the central server goes down, no one can checkout any new files until it comes back up. If the server suffers data loss, any files that were not currently being worked by someone may just be lost.</li>
+</ul>
+</li>
+<li><strong>Distributed</strong>
+<ul>
+<li>In a distributed version control system, whenever someone wants to work on a project, they actually <em>clone</em> the entire project and all of its history onto their computer from a remote repository (such as a project hosted on GitHub or on a private server).</li>
+<li>So if something happens to the remote repository, there are essentially full backups located on the actual computers of anyone who is working on the project.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>While Git is not the only distributed version control system that exists, it is definitely one of (if not the) most popular systems today.</li>
+</ul>
+</li>
+</ul>
+<h1 id="-what-is-github">🤔 what is github?<a href="#-what-is-github" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<ul>
+<li>While Git is a program you can run on your computer, Github is an online platform that you can use with Git to store your project and manage collaboration.</li>
+<li>When we talk about remote repositories, Github is an example of a very popular location to store a repository.</li>
+<li>In other words, Git &amp; Github are not the same thing; Github is an online tool that helps store Git-managed projects &amp; makes certain social/collaboration features easier. You can use Git without Github, but you can&rsquo;t really use Github without using Git.</li>
+</ul>
+<h1 id="-git-workflow">✅ git workflow<a href="#-git-workflow" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<ul>
+<li>
+<p>While going through this section, the following visual may be helpful:</p>
+<p><img src="/images/git_diagram.png" alt="Diagram of git workflow"></p>
+</li>
+<li>
+<p>There are <strong>four</strong> different areas a file can &ldquo;live&rdquo; in at any given time:</p>
+<ul>
+<li>
+<p><strong>Working Directory</strong></p>
+<ul>
+<li>This is the folder you are currently working out of in your code editor. When you save a file in your code editor, you are saving a file in this folder. Git doesn&rsquo;t know about changes made here until you explicitly tell it about them.</li>
+</ul>
+</li>
+<li>
+<p><strong>Staging Area</strong></p>
+<ul>
+<li>
+<p>When you are ready to tell Git about changes you have made to a file, you can run:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add &lt;filename&gt;
+</code></pre></div><p>in your terminal, replacing <!-- raw HTML omitted --> with the actual name &amp; extension of the file you want to commit to changing.</p>
+</li>
+</ul>
+<p>If you run <code>git add .</code>, the <code>.</code> tells Git that you want to add all of the files in your working directory to the staging area.</p>
+<ul>
+<li>
+<p>Git is a little afraid of commitment and likes to take things slow! Because of this, when you add a file to the staging area, Git waits for you to confirm that you are absolutely sure you like the changes you made before it adds those changes to the version control history.</p>
+</li>
+<li>
+<p>If you make a mistake and want to press the &ldquo;undo&rdquo; button to remove the last file you added to the staging area, you can run:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git reset HEAD~1
+</code></pre></div><p>in your terminal. This will remove the last added file from your staging area.</p>
+</li>
+</ul>
+<p>You can check the current status of your files (to see, for example, what is in your staging area) by running <code>git status</code> in your terminal.</p>
+</li>
+<li>
+<p><strong>Local Repository</strong></p>
+<ul>
+<li>
+<p>When you are sure that you want to make a commitment to any changes you have made, you can &ldquo;commit&rdquo; the changes you put in your staging area into your local repository by running:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git commit &lt;filename&gt; -m <span style="color:#e6db74">&#34;short message explaining changes here&#34;</span>
+</code></pre></div><p>in your terminal.</p>
+<p>Just like when adding files to the staging area with <code>git add .</code>, running <code>git commit .</code> will commit all of the changes in your staging area at once!</p>
+</li>
+<li>
+<p>This basically tells Git: &ldquo;I made some changes to these files that I like and want to keep! Please remember these changes for the future in case I need to remember what this looked like beforehand.&rdquo;</p>
+</li>
+<li>
+<p>The <code>-m &quot;short message explaining changes here&quot;</code> part of the command is important because it allows you to add a short message about your changes so you and other developers can quickly tell what the purpose of the change you made was.</p>
+<ul>
+<li>If you leave out this part, your default code editor should pop up and Git will wait for you to create and save a message about your changes.</li>
+</ul>
+</li>
+<li>
+<p>Right now, your code still only exists on your computer. If you have a remote repository hosted on Github, you have one more step to go before all of your changes show up on Github.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Remote Repository</strong></p>
+<ul>
+<li>
+<p>This is the main place your code &ldquo;lives&rdquo; at all times; anyone working on the project can clone a copy of this remote repository and create a local repository on their own computer, complete with the full history of changes up until the moment they clone it.</p>
+</li>
+<li>
+<p>When you make commit a change to your local repository, you can let your remote repository know about the change too by running:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git push origin main
+</code></pre></div><p>in your terminal. <code>origin</code> tells Git that you want to use the remote repository, and <code>main</code> tells Git that you want to add it to the main branch.</p>
+<ul>
+<li>More on branches another time&hellip;for now, <code>main</code> will be the only one you should have to use. Once you get more comfortable with the basics, you can checkout some of the <a href="">other resources</a> to learn more.</li>
+</ul>
+<p>There was a recent move to using <code>main</code> instead of the previously used <code>master</code>; you may still see <code>master</code> used online in tutorials, but know that you can generally safely switch it out with <code>main</code> and it means the same thing.</p>
+</li>
+<li>
+<p>Now the next time someone clones the repository, they will also get all of your changes along with it.</p>
+</li>
+<li>
+<p>If you are working on a project with other people, they will be updating the remote repository too. You don&rsquo;t need to re-clone the whole repository every time that happens, though! Instead, run:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git pull origin main
+</code></pre></div><p>in your terminal. This will grab all of the changes that have been made to the remote repository and update your files locally to match.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>For a <strong>full walkthrough</strong> of the process of creating and updating a repository on Github with Git, see the links below.</p>
+</li>
+</ul>
+<h1 id="-other-resources">⚙️ other resources<a href="#-other-resources" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<ul>
+<li><a href="https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/">Basics of Git &amp; Github</a>
+<ul>
+<li>Article on FreeCodeCamp</li>
+<li>Includes a walkthrough of the process of creating a new repository and updating it</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=RGOj5yH7evk">Git &amp; Github Crash Course</a>
+<ul>
+<li>Youtube video by FreeCodeCamp</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=BCQHnlnPusY&amp;list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV">Git &amp; Github for Poets</a>
+<ul>
+<li>Youtube playlist of videos that teach Git and Github in a very friendly, approachable way</li>
+</ul>
+</li>
+<li><a href="https://www.toptal.com/developers/gitignore">Gitignore.io</a>
+<ul>
+<li>Autogenerates .gitignore files for you</li>
+<li>For information on .gitignore files &amp; what those are, see the <a href="">FreeCodeCamp article</a> linked above</li>
+</ul>
+</li>
+</ul>
+
+      </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="http://DevSquad-StudyGroup.github.io/posts/cs50_week0/">
+                <span class="button__icon">←</span>
+                <span class="button__text">CS 50 Week 0 - Scratch</span>
+            </a>
+        </span>
+        
+        
+    </div>
+</div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2021 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="http://DevSquad-StudyGroup.github.io/assets/main.js"></script>
+<script src="http://DevSquad-StudyGroup.github.io/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on DevSquad Study Group</title>
+    <link>http://DevSquad-StudyGroup.github.io/posts/</link>
+    <description>Recent content in Posts on DevSquad Study Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Jul 2021 20:52:53 -0700</lastBuildDate><atom:link href="http://DevSquad-StudyGroup.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CS 50 Week 0 - Scratch</title>
+      <link>http://DevSquad-StudyGroup.github.io/posts/cs50_week0/</link>
+      <pubDate>Thu, 08 Jul 2021 20:52:53 -0700</pubDate>
+      
+      <guid>http://DevSquad-StudyGroup.github.io/posts/cs50_week0/</guid>
+      <description>✌️ binary   Binary is a base-2 system, unlike the decimal, base-10 system standard in much of the world.
+  Where a base-10 number such as 146 has a 6 in the 1s place (or $10^0$ place), a 4 in the 10s place (or $10^1$ place), and a 1 in the 100s place (or $10^2$ place), a base-2 number such as 001 has a 1 in the 1s place (or $2^0$ place), a 0 in the 2s place (or $2^1$ place) and a 0 in the 4s place (or $2^2$ place).</description>
+      <content>&lt;h1 id=&#34;-binary&#34;&gt;✌️ binary&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Binary is a base-2 system, unlike the decimal, base-10 system standard in much of the world.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Where a base-10 number such as 146 has a 6 in the 1s place (or $10^0$ place), a 4 in the 10s place (or $10^1$ place), and a 1 in the 100s place (or $10^2$ place), a base-2 number such as 001 has a 1 in the 1s place (or $2^0$ place), a 0 in the 2s place (or $2^1$ place) and a 0 in the 4s place (or $2^2$ place).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Put more visually:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://DevSquad-StudyGroup.github.io/images/cs50_week0_binary.png&#34; alt=&#34;Visual representation of binary&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Effectively, binary is the &amp;ldquo;language of computers.&amp;rdquo;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Because computers are machines, they cannot literally think in terms of 0s and 1s. Instead, this is a convention we use to describe the on &amp;amp; off states of the transistors that make up the computer&amp;rsquo;s circuitry.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Because the world is made of more than 0s and 1s, humans have agreed on conventions like &lt;a href=&#34;#-vocabulary&#34;&gt;ascii&lt;/a&gt; and &lt;a href=&#34;#-vocabulary&#34;&gt;unicode&lt;/a&gt; to represent other letters and characters.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Similarly, we have created systems that map binary numbers to colors, sounds, and more, to allow for the wide spectrum of information we can view on a computer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Computers are context-sensitive! The file extension lets the computer know it should use a certain set of decoding instructions to correctly represent the information in any particular file.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-test-yourself&#34;&gt;🤔 test yourself&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Using the following &lt;a href=&#34;https://asciichart.com&#34;&gt;ascii chart&lt;/a&gt;, see if you can decode the binary number to reveal a message.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://DevSquad-StudyGroup.github.io/images/ascii.png&#34; alt=&#34;https://asciichart.com&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;message in binary&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;01000100 01100101 01110110 01010011 01110001 01110101 01100001 01100100&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Look for the &lt;a href=&#34;#binary-message-answer&#34;&gt;answer&lt;/a&gt; at the bottom of the page!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-algorithms&#34;&gt;🧮 algorithms&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;At its most basic, an &lt;strong&gt;algorithm&lt;/strong&gt; is a set of instructions meant to accomplish a task.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In the world of computers, algorithms have to be exact and explicit; computers do not infer or read between the lines. What you say is what you get!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The success of an algorithm is not solely dependent on its correctness; equally important is its efficiency!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Consider the phonebook example:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://DevSquad-StudyGroup.github.io/images/cs50_week0_graph.png&#34; alt=&#34;Graph of phonebook solutions&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When trying to flip through the a phonebook to find a specific name, flipping one page at a time could be represented by the $n$ line. The size of the problem directly corresponds to the time it takes to solve the problem.&lt;/li&gt;
+&lt;li&gt;When flipping through two pages at a time, the solution is represented by the $n/2$ line. Now, the time it takes to solve the problem is divided in half.&lt;/li&gt;
+&lt;li&gt;When flipping through half the phonebook at a time, the solution is represented by the $log_{2}5$ line. While the time to solve the problem still goes up with the size of the problem, as the problem gets larger and larger, the time goes up less and less. This is the most efficient method.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-abstraction&#34;&gt;🎨 abstraction&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Abstraction&lt;/strong&gt; is the process of deliberately simplifying systems by &amp;ldquo;abstracting away&amp;rdquo; the more complex aspects of the system to deal with.&lt;/li&gt;
+&lt;li&gt;An example of abstraction is defining a function that performs a series of commonly used steps in a program. By defining this function in one place with a descriptive name, you can simply call the function into use in any part of your code without having to worry again about the minute implementation details.&lt;/li&gt;
+&lt;li&gt;Abstraction is key to creating more complex projects; you must start &lt;strong&gt;small&lt;/strong&gt; and iterate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-vocabulary&#34;&gt;🗝 vocabulary&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;bits&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;derived from &amp;ldquo;binary digits&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;each digit in a binary number is one bit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;bytes&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;8 bits = 1 byte&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ascii&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;an agreement between humans to represent specific letters and characters with specific binary numbers&lt;/li&gt;
+&lt;li&gt;each character is comprised of 1 byte, or 8 bits
+&lt;ul&gt;
+&lt;li&gt;thus ascii is limited to 256 possibilities as there are only 256 unique ways to arrange 8 bits&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;unicode&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;newer system of mapping binary numbers to characters that aims to represent all of humanity&amp;rsquo;s written languages and symbols&lt;/li&gt;
+&lt;li&gt;uses up to 32 bits per character to allow for a much wider range of possibilities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;binary-message-answer&#34;&gt;binary message answer&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;message in decimal&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;68 101 118 83 113 117 97 100&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;message in english&lt;/strong&gt; (only look once you are done decoding!)
+&lt;ul&gt;
+&lt;li&gt;DevSquad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Git &amp; Github Basics</title>
+      <link>http://DevSquad-StudyGroup.github.io/posts/git_basics/</link>
+      <pubDate>Thu, 08 Jul 2021 20:15:58 -0700</pubDate>
+      
+      <guid>http://DevSquad-StudyGroup.github.io/posts/git_basics/</guid>
+      <description>❓ what is git?  Git is a distributed version control system. Okay&amp;hellip; so what is a version control system then?  A version control system keeps track of all the changes you make to a file or project throughout it&amp;rsquo;s entire lifetime. Why is this useful?   It turns out there are a ton of reasons this is helpful in the world of software development.
+  For one, if you introduce changes to a file that break a previously working project, you can use Git to revert your project back to the previous, working state.</description>
+      <content>&lt;h1 id=&#34;-what-is-git&#34;&gt;❓ what is git?&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Git is a &lt;strong&gt;distributed version control system&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Okay&amp;hellip; so what is a version control system then?
+&lt;ul&gt;
+&lt;li&gt;A version control system keeps track of all the changes you make to a file or project throughout it&amp;rsquo;s entire lifetime.&lt;/li&gt;
+&lt;li&gt;Why is this useful?
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;It turns out there are a &lt;em&gt;ton&lt;/em&gt; of reasons this is helpful in the world of software development.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For one, if you introduce changes to a file that &lt;em&gt;break&lt;/em&gt; a previously working project, you can use Git to revert your project back to the previous, working state.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Git is a bit like an &amp;ldquo;undo&amp;rdquo; button with a super long memory that can remember every action you took!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Another useful feature is if you are working in a team or other collaborative environment. Have a question about why a certain file or function was written the way that it was? Git allows you to see who wrote that part of the code so you can reach out directly to that person.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;So now that we know what a version control system is, what does it mean that Git is &lt;strong&gt;distributed&lt;/strong&gt;?
+&lt;ul&gt;
+&lt;li&gt;There are three main different types of version control systems that exist:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Local&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;In a local version control system, everything (meaning the project and the full history of changes to the project) is stored only in one place - your computer. If you are the only person working on a project, this &lt;em&gt;could&lt;/em&gt; meet your needs; however, it can be error-prone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Centralized&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;In a centralized version control system, the project and the history of changes are stored on a central server. Individuals can &amp;ldquo;checkout&amp;rdquo; certain files to work on, but they only receive that specific file - not the whole history of the file, nor any other files in the project.&lt;/li&gt;
+&lt;li&gt;If the central server goes down, no one can checkout any new files until it comes back up. If the server suffers data loss, any files that were not currently being worked by someone may just be lost.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Distributed&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;In a distributed version control system, whenever someone wants to work on a project, they actually &lt;em&gt;clone&lt;/em&gt; the entire project and all of its history onto their computer from a remote repository (such as a project hosted on GitHub or on a private server).&lt;/li&gt;
+&lt;li&gt;So if something happens to the remote repository, there are essentially full backups located on the actual computers of anyone who is working on the project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;While Git is not the only distributed version control system that exists, it is definitely one of (if not the) most popular systems today.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-what-is-github&#34;&gt;🤔 what is github?&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;While Git is a program you can run on your computer, Github is an online platform that you can use with Git to store your project and manage collaboration.&lt;/li&gt;
+&lt;li&gt;When we talk about remote repositories, Github is an example of a very popular location to store a repository.&lt;/li&gt;
+&lt;li&gt;In other words, Git &amp;amp; Github are not the same thing; Github is an online tool that helps store Git-managed projects &amp;amp; makes certain social/collaboration features easier. You can use Git without Github, but you can&amp;rsquo;t really use Github without using Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-git-workflow&#34;&gt;✅ git workflow&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;While going through this section, the following visual may be helpful:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://DevSquad-StudyGroup.github.io/images/git_diagram.png&#34; alt=&#34;Diagram of git workflow&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There are &lt;strong&gt;four&lt;/strong&gt; different areas a file can &amp;ldquo;live&amp;rdquo; in at any given time:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Working Directory&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This is the folder you are currently working out of in your code editor. When you save a file in your code editor, you are saving a file in this folder. Git doesn&amp;rsquo;t know about changes made here until you explicitly tell it about them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Staging Area&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;When you are ready to tell Git about changes you have made to a file, you can run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git add &amp;lt;filename&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;in your terminal, replacing &lt;!-- raw HTML omitted --&gt; with the actual name &amp;amp; extension of the file you want to commit to changing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you run &lt;code&gt;git add .&lt;/code&gt;, the &lt;code&gt;.&lt;/code&gt; tells Git that you want to add all of the files in your working directory to the staging area.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Git is a little afraid of commitment and likes to take things slow! Because of this, when you add a file to the staging area, Git waits for you to confirm that you are absolutely sure you like the changes you made before it adds those changes to the version control history.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you make a mistake and want to press the &amp;ldquo;undo&amp;rdquo; button to remove the last file you added to the staging area, you can run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git reset HEAD~1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;in your terminal. This will remove the last added file from your staging area.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can check the current status of your files (to see, for example, what is in your staging area) by running &lt;code&gt;git status&lt;/code&gt; in your terminal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Local Repository&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;When you are sure that you want to make a commitment to any changes you have made, you can &amp;ldquo;commit&amp;rdquo; the changes you put in your staging area into your local repository by running:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git commit &amp;lt;filename&amp;gt; -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;short message explaining changes here&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;in your terminal.&lt;/p&gt;
+&lt;p&gt;Just like when adding files to the staging area with &lt;code&gt;git add .&lt;/code&gt;, running &lt;code&gt;git commit .&lt;/code&gt; will commit all of the changes in your staging area at once!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This basically tells Git: &amp;ldquo;I made some changes to these files that I like and want to keep! Please remember these changes for the future in case I need to remember what this looked like beforehand.&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;-m &amp;quot;short message explaining changes here&amp;quot;&lt;/code&gt; part of the command is important because it allows you to add a short message about your changes so you and other developers can quickly tell what the purpose of the change you made was.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you leave out this part, your default code editor should pop up and Git will wait for you to create and save a message about your changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Right now, your code still only exists on your computer. If you have a remote repository hosted on Github, you have one more step to go before all of your changes show up on Github.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Remote Repository&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;This is the main place your code &amp;ldquo;lives&amp;rdquo; at all times; anyone working on the project can clone a copy of this remote repository and create a local repository on their own computer, complete with the full history of changes up until the moment they clone it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When you make commit a change to your local repository, you can let your remote repository know about the change too by running:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git push origin main
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;in your terminal. &lt;code&gt;origin&lt;/code&gt; tells Git that you want to use the remote repository, and &lt;code&gt;main&lt;/code&gt; tells Git that you want to add it to the main branch.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;More on branches another time&amp;hellip;for now, &lt;code&gt;main&lt;/code&gt; will be the only one you should have to use. Once you get more comfortable with the basics, you can checkout some of the &lt;a href=&#34;&#34;&gt;other resources&lt;/a&gt; to learn more.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There was a recent move to using &lt;code&gt;main&lt;/code&gt; instead of the previously used &lt;code&gt;master&lt;/code&gt;; you may still see &lt;code&gt;master&lt;/code&gt; used online in tutorials, but know that you can generally safely switch it out with &lt;code&gt;main&lt;/code&gt; and it means the same thing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now the next time someone clones the repository, they will also get all of your changes along with it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you are working on a project with other people, they will be updating the remote repository too. You don&amp;rsquo;t need to re-clone the whole repository every time that happens, though! Instead, run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git pull origin main
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;in your terminal. This will grab all of the changes that have been made to the remote repository and update your files locally to match.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For a &lt;strong&gt;full walkthrough&lt;/strong&gt; of the process of creating and updating a repository on Github with Git, see the links below.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-other-resources&#34;&gt;⚙️ other resources&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/&#34;&gt;Basics of Git &amp;amp; Github&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Article on FreeCodeCamp&lt;/li&gt;
+&lt;li&gt;Includes a walkthrough of the process of creating a new repository and updating it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=RGOj5yH7evk&#34;&gt;Git &amp;amp; Github Crash Course&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Youtube video by FreeCodeCamp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=BCQHnlnPusY&amp;amp;list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV&#34;&gt;Git &amp;amp; Github for Poets&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Youtube playlist of videos that teach Git and Github in a very friendly, approachable way&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.toptal.com/developers/gitignore&#34;&gt;Gitignore.io&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Autogenerates .gitignore files for you&lt;/li&gt;
+&lt;li&gt;For information on .gitignore files &amp;amp; what those are, see the &lt;a href=&#34;&#34;&gt;FreeCodeCamp article&lt;/a&gt; linked above&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
